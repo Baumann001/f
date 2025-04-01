@@ -1,3 +1,4 @@
+// pegar os dados
 function validarFormulario(){
 
     const nome = document.getElementById('nome_maquinista').value.trim();
@@ -13,6 +14,7 @@ function validarFormulario(){
     console.log(experiencia); 
 
 }
+//validar
 
 if(!nome){
     alert('por favor, preencha o nome.');
@@ -42,4 +44,7 @@ if(isNaN(experiencia) || experiencia < 3 ){
 }else{
     console.log(experiencia);
 }
-a
+
+//Devolver
+
+alert('Formulário enviado com sucesso');
